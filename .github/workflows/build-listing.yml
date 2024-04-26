@@ -36,7 +36,8 @@ jobs:
         with:
           # 同一Unityプロジェクト内で複数のPackageリポジトリを管理可能な様に、独自に変更したpackage-list-actionを使用する
           # https://github.com/vrchat-community/package-list-action
-          repository: wellfedbegger/package-list-action
+          repository: vrchat-community/package-list-action
+          # repository: wellfedbegger/package-list-action
           path: ${{env.pathToCi}}
           clean: false # otherwise the local repo will no longer be checked out
           
